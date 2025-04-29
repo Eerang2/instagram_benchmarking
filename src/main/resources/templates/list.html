@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="/list.css" />
+</head>
+<body>
+<div class="container">
+    <!-- 왼쪽 네비게이션 -->
+    <aside class="sidebar">
+        <div class="logo">Instagram</div>
+        <nav>
+            <ul>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">검색</a></li>
+                <li><a href="#">탐색</a></li>
+                <li><a href="#">릴스</a></li>
+                <li><a href="#">메시지</a></li>
+                <li><a href="#">알림</a></li>
+                <li><a href="#">만들기</a></li>
+                <li><a href="mypage">프로필</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- 중앙 피드 -->
+    <main class="feed">
+        <div class="post">
+            <div class="post-header">
+                <img src="profile1.jpg" alt="프로필 사진" class="avatar" />
+                <span class="username">user1</span>
+            </div>
+            <img src="post1.jpg" alt="게시물 이미지" class="post-image" />
+            <div class="post-caption">
+                <strong>user1</strong> 멋진 풍경이에요!
+            </div>
+        </div>
+        <!-- 추가 게시물 반복 -->
+    </main>
+
+    <!-- 오른쪽 추천 친구 -->
+    <aside class="suggestions">
+        <a href="/mypage" style="text-decoration: none">
+        <div class="suggestions-header">
+            <img src="myprofile.jpg" alt="내 프로필" class="avatar" />
+            <div>
+                <strong>myusername</strong>
+                <p>내 이름</p>
+            </div>
+        </div>
+        </a>
+        <div class="suggestions-list">
+            <p>회원님을 위한 추천</p>
+            <div class="suggestion">
+                <img src="profile2.jpg" alt="추천 프로필" class="avatar" />
+                <div>
+                    <strong>user2</strong>
+                    <p>회원님을 팔로우합니다</p>
+                </div>
+                <button>팔로우</button>
+            </div>
+            <!-- 추가 추천 사용자 반복 -->
+        </div>
+    </aside>
+</div>
+</body>
+</html>
